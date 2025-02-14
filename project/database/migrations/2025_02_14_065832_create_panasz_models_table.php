@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('panasz_megnevezes');
             $table->text('panasz_pontos_leirasa');
-            $table->string('panaszbejelentő_neve');
+            $table->string('panaszbejelento_neve');
             $table->date('panasz_bejelentesenek_datuma');
             $table->timestamps();
         });
